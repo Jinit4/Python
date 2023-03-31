@@ -63,3 +63,9 @@ print (2<3 and 3>2)
 #Not Operator
 #makes the output reverse like if we are getting true not will reverse it to false
 print (not 3>2)
+
+#Range
+numbers = range(5) #range is keyword and a function which returns the list or a sequence of numbers 
+print(numbers) #it will return the sequence of numbers where 5 will not be included
+for i in range (5): #Prints all the number in the range 
+    print(i)
